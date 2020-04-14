@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 
+//검색된 비디오들 중에서 실시간으로 검색할 수 있는 서치 바를 만들었다.
 class LiveSearchBar extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return(
       <div className="input-group mb-3">
